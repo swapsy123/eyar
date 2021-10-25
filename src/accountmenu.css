@@ -1,0 +1,58 @@
+.accountmenu {
+
+    flex-direction: column;
+    background-color: lightgrey
+}
+
+.accountmenu__cont {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    background-color: white;
+}
+
+.accountmenu__text{
+    flex: 1px;
+    align-items: center;
+    color: rgb(110, 110, 110);
+    text-transform: capitalize;
+}
+
+.accountmenu__icon {
+    color:  rgb(110, 110, 110)
+}
+
+.accountmenu__dividertext {
+    text-align: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
+    color: rgb(110, 110, 110);
+    text-transform: none;
+}
+
+.accountmenu__titletext {
+    text-align: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
+    color: rgb(110, 110, 110);
+    text-transform: uppercase;
+}
+
+.accountmenu__slidercontainer {
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    background-color: white;
+}
+
+.accountmenu__distancecontainer {
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 50px;
+    align-items: center;
+    background-color: white;
+}

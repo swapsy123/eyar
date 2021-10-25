@@ -1,0 +1,28 @@
+.swipeButtons__bolt {
+  color: plum;
+}
+
+.swipeButtons__heart{
+  color: lightgreen;
+}
+
+.swipeButtons__star {
+  color: lightblue;
+}
+
+.swipeButtons__times{
+  color: red;
+}
+
+.swipeButtons__undo {
+  color: orange;
+}
+
+.swipeButtons {
+  position: fixed;
+  bottom: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
